@@ -1,0 +1,25 @@
+p::first-letter {
+  font-size: 200%;
+}
+
+a[href^="https"] {
+  color: green;
+}
+
+a[href$="xlsx"] {
+  color: blueviolet;
+}
+
+input[type="checkbox"]:checked {
+  color: blue;
+}
+
+table, td, th{
+  border-collapse: collapse;
+  border: 1px solid #000;
+  padding: 2px;
+}
+
+tr:nth-child(odd){
+  background-color: #ccc;
+}

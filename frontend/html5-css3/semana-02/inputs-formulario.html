@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Inputs</title>
+</head>
+<body>
+  <h1>Tipos de Inputs</h1>
+  <form>
+    <input type="text" size="60" value="Texto" maxlength="20" required autocomplete="on"><br>
+    <input type="text" size="60" placeholder="Texto usando placeholder" maxlength="20" required autofocus><br>
+    <input type="text" pattern="[A-Z]{3}-[0-9]{4}" required><br>
+    <input type="text" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required placeholder="99 99999-9999"><br>
+    <input type="radio" name="EstadoCivil" value="C">Casado<br>
+    <input type="radio" name="EstadoCivil" value="S">Solteiro<br>
+    <input type="checkbox" name="noticias" value="N">Noticias<br>
+    <input type="checkbox" name="promocoes" value="P">Promoções<br>
+    <input type="checkbox" name="alertas" value="A">Alertas<br>
+    <input type="color" min="1979-07-01" max="1980-05-20"><br>
+    <input type="date" min="1979-07-01" max="1980-05-20"><br>
+    <input type="datetime-local" min="1979-07-01T00:00:00" max="1980-05-20T00:00:00"><br>
+    <input type="email"><br>
+    <input type="file"><br>
+    <input type="hidden" name="id" value="451"><br>
+    <input type="month" name="mesNascimento" min="2020-12" max="2021-05"><br>
+    <input type="number" name="valor" min="100" max="1000" step="50" placeholder="number"><br>
+    <input type="range" name="valor" min="100" max="1000" step="100"><br>
+    <input type="search" name="termo" placeholder="search"><br>
+    <input type="tel" name="telefone" placeholder="telefone"><br>
+    <input type="time" name="horaMarcada" min="00:00:00" max="18:00:00"><br>
+    <input type="url" name="enderecoSite" placeholder="url"><br>
+    <input type="week" name="semanaCongresso" placeholder="week" min="2021-W18" max="2021-W25"><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+  </form>
+</body>
+</html>

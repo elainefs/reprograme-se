@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+
+<body>
+  <h1>Formulários</h1>
+  <hr>
+  <form method="POST">
+    <p>
+      <label for="txtNomeCompleto">Nome Completo</label><br>
+      <input type="text" name="NomeCompleto" id="txtNomeCompleto" placeholder="Fulano">
+    </p>
+    <p>
+      <label for="txtEmail">E-mail</label><br>
+      <input type="text" name="Email" id="txtEmail" placeholder="email@email.com">
+    </p>
+
+    <fieldset>
+      <legend>Cargo Pretendido</legend>
+      <input type="radio" name="Cargo" id="rdProgramador" value="P">
+      <label for="rdProgramador">Programador</label><br>
+      <input type="radio" name="Cargo" id="rdWebDesigner" value="W">
+      <label for="rdWebDesigner">Web Designer</label>
+    </fieldset>
+
+    <p>
+      <input type="checkbox" name="Aceito" id="chkAceito">
+      <label for="chkAceito">Aceito os termos de uso</label>
+    </p>
+
+    <p>
+      <label for="slctEstado">Estado</label><br>
+      <select name="Estado" id="slctEstado">
+        <optgroup label="Norte">
+          <option value="Am">Amazonas</option>
+          <option value="RO">Rondônia</option>
+          <option value="PA" selected>Pará</option>
+        </optgroup>
+        <option value="ES">Espirito Santo</option>
+        <option value="SP">São Paulo</option>
+      </select>
+    </p>
+    <p>
+      <label for="slctLinguagens">Linguagens de Programação</label><br>
+      <select name="Linguagens" id="slcLinguagens" size="6" multiple>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+        <option value="C#">C#</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="txtCidade">Cidade</label><br>
+      <input type="text" name="Cidade" id="txtCidade" list="cidades">
+      <datalist id="cidades">
+        <option value="Manaus">
+        <option value="Porto Velho">
+        <option value="São Paulo">
+        <option value="Vitória">
+        <option value="Salvador">
+        <option value="Fortaleza">
+      </datalist>
+    </p>
+
+    <p>
+      <label for="txtCurriculo">Currículo</label><br>
+      <textarea name="Curriculo" id="txtCurriculo" cols="30" rows="10">
+      </textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+
+  </form>
+</body>
+
+</html>

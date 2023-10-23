@@ -1,0 +1,11 @@
+p {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 16px;
+  border-right: 1px solid rgb(221, 220, 220);
+}
+
+p:last-of-type{
+  border: none;
+}

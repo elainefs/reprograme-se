@@ -1,0 +1,41 @@
+:root {
+  --oxford-blue: #101d42ff;
+  --palatinate-blue: #fff090;
+  --slate-blue: #6564dbff;
+  --rich-black: #0d1317ff;
+  --non-photo-blue: #89d2dcff;
+}
+
+body {
+  background-color: var(--oxford-blue);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(asfalt-light.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--non-photo-blue);
+}
+
+p {
+  color: var(--palatinate-blue);
+}
+
+a {
+  color: var(--slate-blue);
+}
+
+header, footer {
+  background-color: var(--rich-black);
+  padding: 10px;
+  text-align: center;
+  border: 2px solid var(--palatinate-blue);
+}
+
+main {
+  padding: 10px;
+}

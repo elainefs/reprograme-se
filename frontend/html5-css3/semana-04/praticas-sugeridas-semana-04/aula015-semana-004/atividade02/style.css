@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  opacity: 0.5;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+p {
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prática sugerida da Aula 10</title>
+</head>
+<body>
+  <h1>Cadastro de Cliente</h1>
+  <hr>
+  <form action="/cliente/cadastrar" method="post">
+    <label for="nome">Nome</label><br>
+    <input type="text" name="nome" id="nome"><br><br>
+
+    <label for="email">E-mail</label><br>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="portfolio">URL Portfolio Online</label><br>
+    <input type="url" name="portfolio" id="portfolio"><br><br>
+
+    <label for="nascimento">Data de Nascimento</label><br>
+    <input type="date" name="nascimento" id="nascimento"><br><br>
+
+    <label for="dependentes">Qtd Dependentes</label><br>
+    <input type="number" name="dependentes" id="dependentes"><br><br>
+
+    <label for="corpreferida">Cor Preferida</label><br>
+    <input type="color" name="corpreferida" id="corpreferida"><br><br>
+
+    <label for="telefone">Telefone</label><br>
+    <input type="tel" name="telefone" id="telefone"><br><br>
+
+    <input type="checkbox" name="chkpromo" id="chkpromo">
+    <label for="chkpromo">Receber promoções</label><br><br>
+
+    <label for="estados">Estado</label><br>
+    <select name="estados" id="estados">
+      <option value="">Selecione...</option>
+      <option value="AC">Acre (AC)</option>
+      <option value="AL">Alagoas (AL)</option>
+      <option value="AP">Amapá (AP)</option>
+      <option value="AM">Amazonas (AM)</option>
+      <option value="BA">Bahia (BA)</option>
+      <option value="CE">Ceará (CE)</option>
+      <option value="DF">Distrito Federal (DF)</option>
+      <option value="ES">Espírito Santo (ES)</option>
+      <option value="GO">Goiás (GO)</option>
+      <option value="MA">Maranhão (MA)</option>
+      <option value="MT">Mato Grosso (MT)</option>
+      <option value="MS">Mato Grosso do Sul (MS)</option>
+      <option value="MG">Minas Gerais (MG)</option>
+      <option value="PA">Pará (PA)</option>
+      <option value="PB">Paraíba (PB)</option>
+      <option value="PR">Paraná (PR)</option>
+      <option value="PE">Pernambuco (PE)</option>
+      <option value="PI">Piauí (PI)</option>
+      <option value="RJ">Rio de Janeiro (RJ)</option>
+      <option value="RN">Rio Grande do Norte (RN)</option>
+      <option value="RS">Rio Grande do Sul (RS)</option>
+      <option value="RO">Rondônia (RO)</option>
+      <option value="RR">Roraima (RR)</option>
+      <option value="SC">Santa Catarina (SC)</option>
+      <option value="SP">São Paulo (SP)</option>
+      <option value="SE">Sergipe (SE)</option>
+      <option value="TO">Tocantins (TO)</option> 
+    </select><br><br>
+
+    <label for="mini-bio">Mini-Biografia</label><br>
+    <textarea name="mini-bio" id="mini-bio" cols="30" rows="10"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

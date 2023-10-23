@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conteúdo Multimídia</title>
+</head>
+
+<body>
+  <h1>Conteúdo Multimídia</h1>
+  <hr>
+  <h2>Vídeo único</h2>
+  <video width="800" height="600" controls autoplay muted poster="arquivos/popeye_for_president.jpg">
+    <source src="arquivos/PopeyeforPresident.mp4" type="video/mp4">
+    <source src="arquivos/PopeyeforPresident.webm" type="video/webm">
+    <source src="arquivos/PopeyeforPresident.ogv" type="video/ogv">
+    <track kind="captions" srclang="en-us" src="arquivos/PopeyeforPresident.en-us.vtt" label="Closed Captions">
+    <track kind="subtitles" srclang="pt-br" src="arquivos/PopeyeforPresident.pt-br.vtt" label="Legendas PT-BR" default>
+    Seu navegador não suporta vídeos HTML5.
+  </video>
+  <hr>
+
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/skFLWhp_BV0" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+  <hr>
+  <!-- Define parâmetros na url -->
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/skFLWhp_BV0?controls=0&t=12&mute=1&autoplay=1"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+  <hr>
+
+  <h2>Playlist Completa</h2>
+  <iframe width="800" height="450"
+    src="https://www.youtube.com/embed/videoseries?list=PL0YuSuacUEWuLNDAAJxATh54w_XmrLkk4&controls=0&t=12&mute=1&loop=1"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+  <hr>
+
+  <h2>Conteúdo de audio</h2>
+  <hr>
+  <audio controls>
+    <source src="arquivos/piada.mp3" type="audio/mpeg">
+    <source src="arquivos/piada.ogg" type="audio/ogg">
+    <source src="arquivos/piada.wav" type="audio/wav">
+    Seu navegador não suporta áudio HTML5
+  </audio>
+</body>
+
+</html>

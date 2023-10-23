@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens</title>
+</head>
+
+<body>
+  <h1>Imagens</h1>
+  <hr>
+  <a href="lua.html"><img src="imagens_aula05/moon75.png" alt="Lua" width="200"></a>
+  <a href="terra.html"><img src="imagens_aula05/world.png" alt="Terra" width="200"></a>
+  <a href="sol.html"><img src="imagens_aula05/sun.png" alt="Sol" width="200"></a>
+
+  <img src="https://www.mapasmundi.com.br/blog/wp-content/uploads/2015/07/mapa_brasil_100X100_regioes_2.png"
+    alt="Mapa do Brasil">
+
+  <img src="imagens_aula05/banana.gif" alt="Banana Dançando">
+
+  <br>
+
+  <img src="imagens_aula05/moon.svg" alt="Lua" width="200">
+
+  <h2>Mapeando Imagens</h2>
+  <img src="imagens_aula05/formas.png" alt="Formas Geométricas" usemap="#formas">
+  <map name="formas">
+    <area shape="circle" coords="71,74,68" href="circulo.html" alt="Círculo">
+    <area shape="rect" coords="177,139,314,2" href="quadrado.html" alt="Quadrado">
+    <area shape="rect" coords="352,114,526,28" href="retangulo.html" alt="Retângulo">
+    <area shape="poly" coords="567,132,627,10,688,132 " href="triangulo.html" alt="Triângulo">
+  </map>
+
+  <h2>Usando o atributo picture</h2>
+  <picture>
+    <source media="(min-width: 600px)" srcset="imagens_aula05/moon.png">
+    <source media="(min-width: 400px)" srcset="imagens_aula05/moon75.png">
+    <source media="(min-width: 300px)" srcset="imagens_aula05/moon50.png">
+    <source media="(min-width: 200px)" srcset="imagens_aula05/moon25.png">
+    <img src="imagens_aula05/moon.png" alt="Lua">
+  </picture>
+</body>
+
+</html>
