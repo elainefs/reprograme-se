@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Questão 04</title>
+</head>
+
+<body>
+  <div class="container my-3">
+    <p><a href="index.html">Voltar ao Índice</a></p>
+    <h1 class="display-2">Questão 04</h1>
+    <p class="lead">
+      Usando exclusivamente classes do Bootstrap 5, crie um card responsivo que tenha 8 colunas de largura por padrão e
+      as seguintes larguras nos breakpoints SM, MD, LG e XL, respectivamente: 7, 5, 4 e 3. O card deverá mostrar dados
+      de seu jogador favorito da seleção brasileira de futebol na copa de 2022. O card deve iniciar com uma foto do
+      jogador alinhada ao topo, seguida por um cabeçalho com o texto "Jogador Favorito da Seleção", um título com o nome
+      do jogador, um subtítulo com o clube em que ele joga, um texto com dados do jogador (cidade natal, data de
+      nascimento e altura), e um rodapé indicando quantos jogos ele tem pela seleção brasileira. O card deve ser
+      mostrado em um contêiner responsivo, centralizado horizontalmente.
+    </p>
+    <hr>
+  </div>
+  <!-- Valor: 1.5 pontos -->
+  <!-- FAZER AQUI -->
+  <div class="container">
+    <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhoy.com.do%2Fwp-content%2Fuploads%2F2022%2F11%2FRicharlison.jpeg&f=1&nofb=1&ipt=75cc0d12bd16d1c88ff8f08fd198547477e956af5c1c3ed2ef2f99eeb4fc95ef&ipo=images"
+        alt="Richarlison">
+      <div class="card-header">Jogador Favorito da Seleção</div>
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Richarlison</h5>
+        <h6 class="card-subtitle text-secondary fw-bold">Tottenham</h6>
+        <p class="card-text mt-2">
+          Cidade Natal: Nova Venécia/ES<br>
+          Data de Nascimento: 10/05/1997<br>
+          Altura: 1,84m
+        </p>
+      </div>
+      <div class="card-footer">
+        46 jogos com a seleção
+      </div>
+    </div>
+</body>
+
+</html>

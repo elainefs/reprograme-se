@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Questão 08</title>
+</head>
+
+<body>
+  <div class="container my-3">
+    <p><a href="index.html">Voltar ao Índice</a></p>
+    <h1 class="display-2">Questão 08</h1>
+    <p class="lead">
+      Usando exclusivamente classes do Bootstrap 5, crie um painel deslizante oculto usando o componente
+      <i>OffCanvas</i>, que tenha como título "Seleções da Copa do Mundo 2022" e que tenha um botão para fechar o
+      painel. O corpo do painel deve conter os nomes de 8 países cujas seleções estão na Copa, precedidos pela bandeira
+      do país. Ordene os países conforme a classificação que você acha que eles obterão na copa. Em seguida, adicione
+      uma barra de navegação com um botão alinhado à direita, intitulado "Mostrar", que, quando clicado, deve exibir o
+      painel deslizante.
+    </p>
+    <p class="lead">
+      Dica: use um parágrafo da classe <i>lead</i> para cada país e, na imagem da bandeira, use largura de 54px e a
+      classe "img-thumbnail".
+    </p>
+    <p class="lead">
+      <a href="https://brasilescola.uol.com.br/educacao-fisica/paises-participantes-da-copa-do-mundo-de-2022.htm"
+        target="_blank">Clique aqui</a> para obter as imagens das bandeiras dos países que estão na Copa 2022.
+    </p>
+    <hr>
+  </div>
+  <!-- Valor: 1.5 pontos -->
+  <!-- FAZER AQUI -->
+
+  <nav class="navbar bg-dark navbar-dark">
+    <div class="container d-flex justify-content-end">
+      <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#meu_menu">Mostrar</button>
+    </div>
+    <div class="offcanvas offcanvas-start" id="meu_menu">
+      <div class="offcanvas-header">
+        <h5>Seleções da Copa do Mundo 2022</h5>
+        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="lead"><img src="https://s1.static.brasilescola.uol.com.br/be/2022/10/brasil.JPG"
+            class="img-thumbnail me-1" width="54px" alt="Brasil">Brasil</p>
+        <p class="lead"><img src="https://s2.static.brasilescola.uol.com.br/be/2022/10/holanda.JPG"
+            class="img-thumbnail me-1" width="54px" alt="Holanda">Holanda</p>
+        <p class="lead"><img src="https://s4.static.brasilescola.uol.com.br/be/2022/10/bandeira-inglaterra.jpg"
+            class="img-thumbnail me-1" width="54px" alt="Inglaterra">Inglaterra</p>
+        <p class="lead"><img src="https://s5.static.brasilescola.uol.com.br/be/2022/10/argentina.JPG"
+            class="img-thumbnail me-1" width="54px" alt="Argentina">Argentina</p>
+        <p class="lead"><img src="https://s4.static.brasilescola.uol.com.br/be/2022/10/franca.jpg"
+            class="img-thumbnail me-1" width="54px" alt="França">França</p>
+        <p class="lead"><img src="https://s1.static.brasilescola.uol.com.br/be/2022/10/alemanha.JPG"
+            class="img-thumbnail me-1" width="54px" alt="Alemanha">Alemanha</p>
+        <p class="lead"><img src="https://s1.static.brasilescola.uol.com.br/be/2022/10/espanha.jpg"
+            class="img-thumbnail me-1" width="54px" alt="Espanha">Espanha</p>
+        <p class="lead"><img src="https://s4.static.brasilescola.uol.com.br/be/2022/10/portugal.jpg"
+            class="img-thumbnail me-1" width="54px" alt="Portugal">Portugal</p>
+      </div>
+    </div>
+  </nav>
+</body>
+
+</html>
