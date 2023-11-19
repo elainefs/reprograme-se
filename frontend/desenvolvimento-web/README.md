@@ -15,3 +15,11 @@
 ### [Exercícios da Semana 02](semana-02/index.html)
 
 ### [Atividade Prática da Semana 02](semana-02/index.html)
+
+## Semana 03
+### Tópicos abordados:
+- Aula 03 - Javascript DOM - Formulários
+- Validação usando apenas HTML
+- Validação usando JavaScript
+- Validação usando Bootstrap
+- Armazenamento com Local Storage

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Validado com JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Validação com JavaScript</h1>
+  <hr>
+  <form name="form1" action="#" method="get">
+    <label for="txtNome">Nome</label>
+    <input type="text" id="txtNome" name="nome" placeholder="Fulano de Tal" required>
+    <label for="txtEmail">E-mail</label>
+    <input type="email" name="email" id="txtEmail" placeholder="fulano@gmail.com" required>
+    <label for="txtTelefone">Telefone</label>
+    <input type="text" name="telefone" id="txtTelefone" placeholder="(99)99999-9999" pattern="\(\d{2}\)\d{5}-\d{4}" required>
+    <label for="selSexo">Sexo</label>
+    <select name="sexo" id="selSexo" required>
+      <option value="" selected>Selecione o sexo</option>
+      <option value="M">Masculino</option>
+      <option value="F">Feminino</option>
+    </select>
+    <label for="txtSenha">Senha</label>
+    <input type="password" name="senha" id="txtSenha" required>
+    <label for="txtConfSenha">Confirmação de Senha</label>
+    <input type="password" name="confSenha" id="txtConfSenha" required>
+    <input type="submit" value="Enviar" class="btn">
+  </form>  
+
+  <script src="script.js"></script>
+</body>
+</html>

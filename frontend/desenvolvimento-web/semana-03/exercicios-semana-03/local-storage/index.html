@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage</title>
+</head>
+
+<body>
+  <script>
+    // Sem JSON
+    localStorage.setItem('nome', 'Elaine');
+    localStorage.setItem('telefone', '99999999999');
+
+    const nome = localStorage.getItem('nome');
+    const telefone = localStorage.getItem('telefone');
+
+    document.write(`<p>${nome}</p>`)
+    document.write(`<p>${telefone}</p>`)
+
+    // Com JSON
+    const contato = {
+      nome: 'Elaine',
+      telefone: '(99)99999-9999'
+    }
+
+    localStorage.setItem('contato', JSON.stringify(contato));
+
+    const c = JSON.parse(localStorage.getItem('contato'));
+
+    document.write(`<p>${c.nome}</p>`)
+    document.write(`<p>${c.telefone}</p>`)
+
+    // Com Array
+    const contato1 = {
+      nome: 'Elaine',
+      telefone: '(99)99999-9999'
+    }
+
+    const contato2 = {
+      nome: 'Rafael',
+      telefone: '(99)88888-9999'
+    }
+
+    const bd_contatos = [contato1, contato2];
+
+    localStorage.setItem('bd_contatos', JSON.stringify(bd_contatos));
+
+    const contatos = JSON.parse(localStorage.getItem('bd_contatos'));
+
+    for (let c of contatos) {
+      document.write(`<p>${c.nome}</p>`)
+      document.write(`<p>${c.telefone}</p>`)
+    }
+  </script>
+</body>
+
+</html>
