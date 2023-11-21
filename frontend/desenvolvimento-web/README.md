@@ -23,3 +23,7 @@
 - Validação usando JavaScript
 - Validação usando Bootstrap
 - Armazenamento com Local Storage
+
+### [Exercícios da Semana 03](semana-03/index.html)
+
+### [Atividade Prática da Semana 03](semana-03/index.html)
