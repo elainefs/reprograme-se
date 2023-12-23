@@ -1,0 +1,73 @@
+[
+  {
+    "NomeCompleto": "Ana Silva",
+    "Endereco": "Rua das Flores, 123, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 25,
+    "Sexo": "Feminino"
+  }, 
+  {
+    "NomeCompleto": "Gabriela Silva",
+    "Endereco": "Rua do Dia, 568, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 45,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "João Pedro",
+    "Endereco": "Rua do Sol, 456, Cidade Feliz",
+    "Nacionalidade": "Brasileira",
+    "Idade": 30,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Maria Clara",
+    "Endereco": "Rua da Lua, 789, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 22,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "Pedro Paulo",
+    "Endereco": "Rua das Estrelas, 1011, Cidade Feliz",
+    "Nacionalidade": "Brasileira",
+    "Idade": 28,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Ana Paula",
+    "Endereco": "Rua do Sol, 456, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 20,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "João Lucas",
+    "Endereco": "Rua da Lua, 789, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 32,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Maria Eduarda",
+    "Endereco": "Rua das Estrelas, 1011, Cidade Feliz",
+    "Nacionalidade": "Brasileira",
+    "Idade": 24,
+    "Sexo": "Feminino"
+  },
+  {
+    "NomeCompleto": "Pedro Henrique",
+    "Endereco": "Rua do Sol, 456, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 26,
+    "Sexo": "Masculino"
+  },
+  {
+    "NomeCompleto": "Ana Beatriz",
+    "Endereco": "Rua da Lua, 789, Cidade Alegre",
+    "Nacionalidade": "Brasileira",
+    "Idade": 21,
+    "Sexo": "Feminino"
+  }
+]
+
