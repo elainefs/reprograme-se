@@ -8,12 +8,7 @@
 - Aula 04 - NPM e o arquivo package.json
 - Aula 05 - Modularização
 
-### Exercícios da semana 01
-- [Conversor de Temperatura](exercicios-semana-01/conversor-temperatura/index.js)
-- [Somar números](exercicios-semana-01/soma-numeros/app.js)
-
-### Práticas da semana 01
-- [Sistema de cadastro de informações pessoais](pratica-semana-01/index.js)
+### [Exercícios e prática da semana 01](semana-01/index.html)
 
 ## Semana 02
 ### Tópicos abordados:
@@ -26,9 +21,4 @@
 - Aula 12 - Leitura de arquivos JSON
 - Aula 13 - Escrita em arquivos JSON
 
-### Exercícios da semana 01
-- [Conversor de Temperatura](exercicios-semana-01/conversor-temperatura/index.js)
-- [Somar números](exercicios-semana-01/soma-numeros/app.js)
-
-### Práticas da semana 01
-- [Sistema de cadastro de informações pessoais](pratica-semana-01/index.js)
+### [Exercícios e prática da semana 02](semana-02/index.html)
