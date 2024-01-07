@@ -22,3 +22,11 @@
 - Aula 13 - Escrita em arquivos JSON
 
 ### [Exercícios e prática da semana 02](semana-02/index.html)
+
+## Semana 03
+### Tópicos abordados:
+- Aula 14 - Programação assíncrona - Callbacks
+- Aula 15 - Programação assíncrona - Promises
+- Aula 16 - Programação assíncrona - Async/Await
+
+### [Exercícios e prática da semana 02](semana-03/index.html)
