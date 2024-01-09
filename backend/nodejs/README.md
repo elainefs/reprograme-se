@@ -29,4 +29,11 @@
 - Aula 15 - Programação assíncrona - Promises
 - Aula 16 - Programação assíncrona - Async/Await
 
-### [Exercícios e prática da semana 02](semana-03/index.html)
+### [Exercícios e prática da semana 03](semana-03/index.html)
+
+## Semana 04
+### Tópicos abordados:
+- Aula 17 - Requisições HTTP
+- Aula 18 - Parâmetros nas requisições HTTP
+
+### [Exercícios e prática da semana 04](semana-04/index.html)
