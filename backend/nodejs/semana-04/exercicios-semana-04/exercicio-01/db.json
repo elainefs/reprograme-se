@@ -1,0 +1,16 @@
+{
+  "estados": [
+    {
+      "nome": "Espírito Santo",
+      "id": "ES"
+    },
+    {
+      "id": "PA",
+      "nome": "Pará"
+    },
+    {
+      "id": "RJ",
+      "nome": "Rio de Janeiro"
+    }
+  ]
+}

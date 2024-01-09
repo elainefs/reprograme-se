@@ -1,0 +1,14 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "Passear com o cachorro",
+      "status": "Concluída"
+    },
+    {
+      "id": 2,
+      "descricao": "Lavar a roupa",
+      "status": "Pendente"
+    }
+  ]
+}
