@@ -1,6 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const porta = 443;
+const readline = require('readline');
 
 const servidor = http.createServer((req, res) => {
   fs.readFile('pagina.html', (err, arquivo) => {
