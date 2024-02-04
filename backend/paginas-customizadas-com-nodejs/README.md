@@ -21,3 +21,16 @@
 - Aula 08 - Criando rotas no Servidor Web
 
 ### [Exercícios e prática da semana 02](semana-02/index.html)
+
+## Semana 03
+
+### Tópicos abordados:
+
+- Aula 09 - Criando rotas no Servidor Web com uso de URL - Parte 1
+- Aula 09 - Criando rotas no Servidor Web com uso de URL - Parte 2
+- Aula 10 - Criando rotas no Servidor Web utilizando o Express - Parte 1
+- Aula 10 - Criando rotas no Servidor Web utilizando o Express - Parte 2
+- Aula 11 - Upload de arquivos com módulo formidable - Parte 1
+- Aula 11 - Upload de arquivos com módulo formidable - Parte 2
+
+### [Exercícios e prática da semana 03](semana-03/index.html)
