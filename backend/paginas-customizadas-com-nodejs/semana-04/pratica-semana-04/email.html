@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envio de E-mail</title>
+  <style>
+    body {
+      background-color: #d1d1d1;
+      width: 50%;
+      margin: 0 auto;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    input {
+      padding: 10px;
+      outline-color: blueviolet;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Área de envio de e-mail</h1>
+  <form method="post">
+    <input type="text" name="email" placeholder="Digite o e-mail">
+    <input type="submit" value="Enviar">
+  </form>
+
+  <a href="/">Ir para Home</a>
+
+  <p>E-mail enviado com sucesso</p>
+
+  <script>
+    let input = document.querySelector('input[type="text"]')
+    let p = document.querySelector('p');
+    p.style.display = 'none';
+    addEventListener('submit', () => {
+      p.style.display = 'block';
+      input.value = '';
+    }) 
+  </script>
+</body>
+
+</html>
