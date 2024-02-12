@@ -34,3 +34,13 @@
 - Aula 11 - Upload de arquivos com módulo formidable - Parte 2
 
 ### [Exercícios e prática da semana 03](semana-03/index.html)
+
+## Semana 04
+
+### Tópicos abordados:
+
+- Aula 12 - Enviando e-mail com Nodemailer - Parte 1
+- Aula 12 - Enviando e-mail com Nodemailer - Parte 2
+- Aula 13 - Autenticando usuário no Node.js
+
+### [Exercícios e prática da semana 04](semana-04/index.html)
