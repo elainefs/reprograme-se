@@ -12,4 +12,17 @@
 
 ### [Exercícios e prática da semana 01](semana-01/index.html)
 
+## Semana 02
+
+### Tópicos abordados:
+
+- Aula 05 - Manipulação de dados com Sequelize - Parte 1
+- Aula 05 - Manipulação de dados com Sequelize - Parte 2
+- Aula 06 - Mapeando uma tabela com relacionamento 1 para muitos
+- Aula 07 - Manipulação de objetos no Sequelize - Parte 1
+- Aula 07 - Manipulação de objetos no Sequelize - Parte 2
+- Aula 07 - Manipulação de objetos no Sequelize - Parte 3
+
+### [Exercícios e prática da semana 02](semana-02/index.html)
+
 
