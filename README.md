@@ -1,9 +1,11 @@
 # Reprograme-se 💻
+
 O projeto Reprograme-se é um curso de Formação Inicial e Continuada em desenvolvimento de sistemas web, tanto do lado do cliente quanto do servidor.
 
 O projeto Reprograme-se é composto por dois cursos:
-- Programação básica de aplicativos Web – Front-end
-- Programação com JavaScript e o Framework Node.js – Back-end
+
+- Programação básica de aplicativos Web – [Front-end](https://elainefs.github.io/reprograme-se/frontend/)
+- Programação com JavaScript e o Framework Node.js – [Back-end](https://elainefs.github.io/reprograme-se/backend/)
 
 ## 📄 Licença
 
