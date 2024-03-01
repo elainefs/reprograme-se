@@ -1,7 +1,9 @@
 # HTML5 e CSS3
 
 ## Semana 01
+
 ### Tópicos abordados:
+
 - Aula 01 - Como funcionam os sites
 - Aula 02 - A estrutura básica de arquivos HTML e CSS
 - Aula 03 - Editores de código Replit e VSCode
@@ -13,7 +15,9 @@
 ### [Atividade Prática da Semana 01](semana-01/atividade-pratica-da-semana-01/index.html)
 
 ## Semana 02
+
 ### Tópicos abordados:
+
 - Aula 06 - Elementos HTML para exibição de conteúdo multimídia
 - Aula 07 - Criação de imagens SVG usando HTML
 - Aula 08 - Exibição de dados em tabelas
@@ -25,7 +29,9 @@
 ### [Atividade Prática da Semana 02](semana-02/atividade-pratica-da-semana-02/index.html)
 
 ## Semana 03
+
 ### Tópicos abordados:
+
 - Aula 11 - Associação de CSS a documentos HTML e seletores
 - Aula 12 - Cores, fundos, bordas e margens com CSS
 - Aula 13 - Formatação de textos, fontes, links e listas com CSS
@@ -36,7 +42,9 @@
 ### [Atividade Prática da Semana 03](semana-03/atividade-pratica-da-semana-03/index.html)
 
 ## Semana 04
+
 ### Tópicos abordados:
+
 - Aula 15 - Propriedades CSS para configuração de exibição
 - Aula 16 - Posicionamento de elementos via CSS
 - Aula 17 - Propriedades CSS Overflow, Float, Clear e Box-Sizing
@@ -46,7 +54,9 @@
 ### [Atividade Prática da Semana 04](semana-04/atividade-pratica-da-semana-04/index.html)
 
 ## Semana 05
+
 ### Tópicos abordados:
+
 - Aula 18 - Criação de leiautes usando CSS flexbox
 - Aula 19 - Criação de leiautes usando CSS grid
 - Aula 20 - Responsividade e Estudo de Caso

@@ -23,3 +23,5 @@ Depois, calcule a média de todos os salários líquidos. Posteriormente, mostre
 Crie 2 funções, a saber:
 - Função para calcular o IR: esta função deve receber como parâmetros o salário bruto e a renda per capta, e, retorna ao final o valor do IR;
 - Função para calcular a quantidade de salários líquidos menores que a média: esta função deve receber como parâmetros o array de salários líquidos e a média dos salários líquidos, e, retornar a quantidade de salários líquidos menores que a média.
+
+[Ver Código](index.js)
