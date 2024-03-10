@@ -25,4 +25,17 @@
 
 ### [Exercícios e prática da semana 02](semana-02/index.html)
 
+## Semana 03
+
+### Tópicos abordados:
+
+- Aula 08 - Criando o banco de dados da aplicação
+- Aula 09 - Criando o model cliente da aplicação
+- Aula 10 - Criando a estrutura da aplicação e o sincronismo com o banco e a tabela
+- Aula 11 - Criando as rotas e o create - Parte 1
+- Aula 11 - Criando as rotas e o create - Parte 2
+- Aula 11 - Criando as rotas e o create - Parte 3
+
+### [Exercícios e prática da semana 03](semana-03/index.html)
+
 
