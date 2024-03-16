@@ -38,4 +38,19 @@
 
 ### [Exercícios e prática da semana 03](semana-03/index.html)
 
+## Semana 04
+
+### Tópicos abordados:
+
+- Aula 12 - Metodologia MVC
+- Aula 13 - Criando a estrutura MVC
+- Aula 14 - Criando a estrutura, conexão com banco de dados e servidor
+- Aula 15 - Criando o Model
+- Aula 16 - Criando o controller
+- Aula 17 - Criando as rotas e finalizando o index
+- Aula 18 - Criando as views
+- Aula 19 - Testando a aplicação e corrigindo possíveis erros
+
+### [Exercícios e prática da semana 04](semana-04/index.html)
+
 
