@@ -7,3 +7,5 @@
 ### [Criação de páginas customizadas com Node.js](paginas-customizadas-com-nodejs/README.md)
 
 ### [Persistência de dados com Sequelize](sequelize/README.md)
+
+### [Node.js Intermediário, CRUD com Sequelize, cookies e sessões](crud-nodejs-cookies-sessoes/README.md)
