@@ -1,0 +1,40 @@
+<h1 class="text-center my-3">Atualizar Usuário: {{usuario.nome}}</h1>
+<form action="/usuarios/Update" method="post"">
+<input type="hidden" name="id_usuario" value="{{usuarios.id_usuario}}" />
+<div class="row w-50 d-block m-auto g-3">
+<div class="col-12">
+<label class="form-label" for="nome">Nome:</label>
+<input
+class="form-control"
+type="nome"
+name="nome"
+id="nome"
+value="{{usuarios.nome}}"
+/>
+</div>
+<div class="col-12">
+<label class="form-label" for="email">E-mail:</label>
+<input
+class="form-control"
+type="email"
+name="email"
+id="email"
+value="{{usuarios.email}}"
+/>
+</div>
+<div class="col-12">
+<label class="form-label" for="senha">Senha:</label>
+<input
+class="form-control"
+type="senha"
+name="senha"
+id="senha"
+value="{{usuarios.senha}}"
+/>
+</div>
+<div>
+<input class="btn btn-primary my-3" type="submit" value="Atualizar usuário"
+/>
+</div>
+</div>
+</form>
