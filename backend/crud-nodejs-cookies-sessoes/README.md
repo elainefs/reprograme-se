@@ -24,3 +24,18 @@
 - Aula 11 - Testado a API via Postman
 
 ### [Exercícios e prática da semana 02](semana-02/index.html)
+
+## Semana 03
+
+### Tópicos abordados:
+
+- Aula 12 - Introdução a cookies
+- Aula 13 - Configurando cookies
+- Aula 14 - Manipulando cookies
+- Aula 15 - Criando o servidor, model e banco de dados da API
+- Aula 16 - Criando o routes e o controller da API
+- Aula 17 - Inciando a criação do Front-End
+- Aula 18 - Criação das rotas do Front-End - Parte 1
+- Aula 18 - Criação das rotas do Front-End - Parte 2
+
+### [Exercícios e prática da semana 03](semana-03/index.html)
