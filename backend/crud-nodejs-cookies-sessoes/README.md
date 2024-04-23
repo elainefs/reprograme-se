@@ -39,3 +39,16 @@
 - Aula 18 - Criação das rotas do Front-End - Parte 2
 
 ### [Exercícios e prática da semana 03](semana-03/index.html)
+
+## Semana 04
+
+### Tópicos abordados:
+
+- Aula 19 - Introdução a JSON Web Token (JWT)
+- Aula 20 - Autenticação com JWT
+- Aula 21 - Autenticação com JWT - Front-End
+- Aula 22 - Criando o model e controller produto
+- Aula 23 - Finalizando e testando aplicação
+- Aula 24 - Criando um carrinho de compras com cookies
+
+### [Exercícios e prática da semana 04](semana-04/index.html)
