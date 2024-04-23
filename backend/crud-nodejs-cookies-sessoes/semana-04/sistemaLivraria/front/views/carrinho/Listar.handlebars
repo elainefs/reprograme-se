@@ -1,0 +1,25 @@
+<h1 class="text-center my-3">Lista de Livros do Carrinho</h1>
+<center><table class="table">
+<div class="row">
+<div class="col-12">
+<thead>
+</thead>
+<tbody>
+<tr>
+{{#each carrinho}}
+<br>
+Código Livro:<strong> {{this.id}}</strong> - <strong>{{this.titulo}}</strong>
+<a href="/carrinho/remover/{{this.id}}"><img
+src="https://lh3.googleusercontent.com/pw/AP1GczNIro9w60S3oGEEqRPiuavtt
+tybD4sU1mijgmDsZVG25i8vCtdlm78mdg1OfGhE8Kl9WhEsn7w0KwUuMGybz
+uGBrZhZasbMNsZ9UcbIUa8a-
+gEtBmnLeY6gW94zhcs9MumXqERWiU9wjpXGM2XYtvU=w360-h360-s-no-
+gm?authuser=0"alt="remover do carrinho" width=50 height=50
+alt="mostrar imagem" title="Clique aqui para remover do carrinho"/></a>
+</th>
+{{/each}}
+</tr>
+</tbody>
+</div>
+</div>
+</table></center>

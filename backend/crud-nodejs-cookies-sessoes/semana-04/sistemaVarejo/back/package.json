@@ -1,0 +1,17 @@
+{
+  "name": "varejo",
+  "version": "1.0.0",
+  "description": "Sistema de Varejo",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^9.1.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
